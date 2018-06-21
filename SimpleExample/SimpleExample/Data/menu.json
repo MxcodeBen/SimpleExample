@@ -1,0 +1,58 @@
+{
+    "items": [{
+              "name": "UI",
+              "detail": "ui detail",
+              "items": [{
+                        "name": "Views",
+                        "detail": "Views Detail",
+                        "items": [{
+                                  "name": "View",
+                                  "detail": "View",
+                                  "viewname": "ViewVC",
+                                  "storyboard": "Views",
+                                  "nc": 1
+                                  }]
+                        },
+                        {
+                        "name": "Buttons",
+                        "detail": "Buttons Detail",
+                        "items": [{
+                                  "name": "Button",
+                                  "detail": "Button",
+                                  "viewname": "ButtonVC",
+                                  "storyboard": "Buttons",
+                                  "nc": 1
+                                  }]
+                        }
+                        ]
+              },
+              {
+              "name": "Data",
+              "detail": "data detail",
+              "items": []
+              },
+              {
+              "name": "Web",
+              "detail": "web detail",
+              "items": [{
+                        "name": "Web Views",
+                        "detail": "Web View",
+                        "items": [{
+                                  "name": "UIWebView",
+                                  "detail": "UIWebView",
+                                  "viewname": "WebViewVC",
+                                  "storyboard": "WebView",
+                                  "nc": 1
+                                  },
+                                  {
+                                  "name": "WKWebView",
+                                  "detail": "WKWebView",
+                                  "viewname": "WKWebViewVC",
+                                  "storyboard": "WebView",
+                                  "nc": 1
+                                  }
+                                  ]
+                        }]
+              }
+              ]
+}
